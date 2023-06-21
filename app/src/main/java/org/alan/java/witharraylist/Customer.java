@@ -17,7 +17,7 @@ public class Customer {
 		initCustomer();
 	}
 	
-	private void initCustomer() {                // reseting member variable
+	private void initCustomer() {
 		customerGrade = "SILVER";
 		bonusRatio = .01;
 	}
