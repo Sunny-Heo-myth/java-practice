@@ -5,12 +5,28 @@ public class ExceptionMain1 {
     public static void main(String[] args) {
         System.out.println("main called.");
         ExceptionMain1 exceptionMain1 = new ExceptionMain1();
-        exceptionMain1.methodA();
+        try {
+            exceptionMain1.methodA();
+        } catch (ExceptionA e) {
+            System.out.println("ExceptionA caught.");
+        } finally {
+            System.out.println("main end.");
+        }
+
+
     }
 
     private void methodA() {
-        System.out.println("methodA called.");
-        methodB();
+        try {
+            System.out.println("methodA called.");
+            methodB();
+            System.out.println("methodA end.");
+        } catch (ExceptionB e) {
+            System.out.println("ExceptionB caught.");
+            throw new ExceptionA("ExceptionA is thrown by methodA!", e);
+        } finally {
+            System.out.println("methodA end.");
+        }
     }
 
     private void methodB() {
@@ -21,6 +37,8 @@ public class ExceptionMain1 {
             System.out.println("ExceptionC caught.");
             String b = "ExceptionB is thrown by methodB!";
             throw new ExceptionB(b);
+        } finally {
+            System.out.println("methodB end.");
         }
     }
 
