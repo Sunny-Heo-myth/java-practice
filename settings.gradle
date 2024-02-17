@@ -14,3 +14,5 @@ plugins {
 
 rootProject.name = 'java-practice'
 include('app')
+include 'effective'
+
