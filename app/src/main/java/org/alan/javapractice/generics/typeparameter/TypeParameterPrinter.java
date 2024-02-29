@@ -1,6 +1,8 @@
-package org.alan.javapractice.generics;
+package org.alan.javapractice.generics.typeparameter;
 
-public class GenericPrinter<X extends Material> {
+import org.alan.javapractice.generics.Material;
+
+public class TypeParameterPrinter<X extends Material> {
 	private X material;
 	
 	public void setMaterial(X material) {
@@ -12,7 +14,7 @@ public class GenericPrinter<X extends Material> {
 	}
 	
 	public String toString() {
-		System.out.println("GenericPrinter method");
+		System.out.println("TypeParameterPrinter method");
 		return material.toString();
 	}
 	
