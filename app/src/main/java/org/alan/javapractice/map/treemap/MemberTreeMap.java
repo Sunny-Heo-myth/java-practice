@@ -1,8 +1,9 @@
 package org.alan.javapractice.map.treemap;
 
+import org.alan.javapractice.collection.Member;
+
 import java.util.Iterator;
 import java.util.TreeMap;
-import org.alan.javapractice.collection.Member;
 
 public class MemberTreeMap {
 	

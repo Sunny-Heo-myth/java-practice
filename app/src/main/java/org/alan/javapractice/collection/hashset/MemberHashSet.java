@@ -1,8 +1,9 @@
 package org.alan.javapractice.collection.hashset;
 
+import org.alan.javapractice.collection.Member;
+
 import java.util.HashSet;
 import java.util.Iterator;
-import org.alan.javapractice.collection.Member;
 
 public class MemberHashSet {
 	

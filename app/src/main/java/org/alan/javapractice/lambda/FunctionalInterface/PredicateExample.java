@@ -1,10 +1,10 @@
 package org.alan.javapractice.lambda.FunctionalInterface;
 
+import org.alan.javapractice.stream.stream.Member;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
-
-import org.alan.javapractice.stream.stream.Member;
 
 public class PredicateExample {
 

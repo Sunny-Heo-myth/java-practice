@@ -1,8 +1,8 @@
 package org.alan.javapractice.lambda.FunctionalInterface;
 
-import java.util.function.Consumer;
-
 import org.alan.javapractice.stream.stream.Member;
+
+import java.util.function.Consumer;
 
 public class AndThenExample {
 

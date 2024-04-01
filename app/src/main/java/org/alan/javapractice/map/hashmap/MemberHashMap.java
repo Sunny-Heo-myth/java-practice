@@ -1,8 +1,9 @@
 package org.alan.javapractice.map.hashmap;
 
+import org.alan.javapractice.collection.Member;
+
 import java.util.HashMap;
 import java.util.Iterator;
-import org.alan.javapractice.collection.Member;
 
 public class MemberHashMap {
 	private HashMap<Integer, Member> hashMap;

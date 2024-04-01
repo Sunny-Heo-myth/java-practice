@@ -1,10 +1,10 @@
 package org.alan.javapractice.lambda.FunctionalInterface;
 
+import org.alan.javapractice.stream.stream.Member;
+
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.ObjIntConsumer;
-
-import org.alan.javapractice.stream.stream.Member;
 
 public class ConsumerExample {
 

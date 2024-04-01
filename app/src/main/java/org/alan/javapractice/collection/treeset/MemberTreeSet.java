@@ -1,8 +1,9 @@
 package org.alan.javapractice.collection.treeset;
 
+import org.alan.javapractice.collection.Member;
+
 import java.util.Iterator;
 import java.util.TreeSet;
-import org.alan.javapractice.collection.Member;
 
 public class MemberTreeSet {
 	private TreeSet<Member> treeSet;

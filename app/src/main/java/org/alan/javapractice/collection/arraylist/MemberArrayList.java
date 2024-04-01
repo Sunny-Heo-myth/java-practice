@@ -1,7 +1,8 @@
 package org.alan.javapractice.collection.arraylist;
 
-import java.util.ArrayList;
 import org.alan.javapractice.collection.Member;
+
+import java.util.ArrayList;
 
 public class MemberArrayList {
 	

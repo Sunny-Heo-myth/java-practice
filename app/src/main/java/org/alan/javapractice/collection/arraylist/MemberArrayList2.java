@@ -1,9 +1,9 @@
 package org.alan.javapractice.collection.arraylist;
 
+import org.alan.javapractice.collection.Member;
+
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import org.alan.javapractice.collection.Member;
 
 public class MemberArrayList2 {
 	private ArrayList<Member> arrayList;

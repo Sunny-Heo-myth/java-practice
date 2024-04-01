@@ -1,8 +1,9 @@
 package org.alan.javapractice.stream.collect;
 
+import org.alan.javapractice.stream.stream.Member;
+
 import java.util.Arrays;
 import java.util.List;
-import org.alan.javapractice.stream.stream.Member;
 
 public class MaleMemberExample {
 
